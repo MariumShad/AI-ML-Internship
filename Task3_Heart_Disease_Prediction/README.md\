@@ -1,1 +1,93 @@
+#  Heart Disease Prediction using Machine Learning
 
+##  Task Objective
+The objective of this project is to build a machine learning model that predicts whether a person is at risk of heart disease based on their medical and health-related information.
+
+The project focuses on:
+- Data cleaning and preprocessing
+- Exploratory Data Analysis (EDA)
+- Binary classification using Logistic Regression
+- Model evaluation using different performance metrics
+- Identifying important health factors affecting heart disease
+
+##  Dataset Used
+Dataset: Heart Disease UCI Dataset
+
+Source:
+Kaggle / UCI Machine Learning Repository
+
+The dataset contains medical attributes such as:
+- Age
+- Sex
+- Chest pain type
+- Cholesterol level
+- Blood pressure
+- Maximum heart rate
+- Exercise-induced angina
+- And other health indicators
+
+Target Variable:
+- 0 → No Heart Disease
+- 1 → Heart Disease
+
+##  Data Cleaning & Preprocessing
+The following preprocessing steps were performed:
+- Removed duplicate records
+- Checked and handled missing values
+- Encoded categorical variables into numeric format
+- Applied feature scaling using StandardScaler
+
+## Exploratory Data Analysis (EDA)
+EDA techniques used:
+- Countplot for target distribution
+- Correlation heatmap
+- Histograms for feature distributions
+
+These visualizations helped understand:
+- Relationships between features
+- Data distribution
+- Important trends related to heart disease
+
+## Model Applied
+Machine Learning Model Used:
+- Logistic Regression
+
+Reason for choosing Logistic Regression:
+- Suitable for binary classification problems
+- Simple and interpretable
+- Efficient for medical prediction tasks
+
+## Model Evaluation
+The model was evaluated using:
+- Accuracy Score
+- Classification Report
+- Confusion Matrix
+- ROC Curve
+- ROC-AUC Score
+
+##  Feature Importance Analysis
+Feature importance was analyzed using Logistic Regression coefficients.
+
+Important features influencing heart disease prediction include:
+- Chest pain type
+- Maximum heart rate
+- Cholesterol
+- Age
+- Exercise-induced angina
+
+##  Key Results & Findings
+- The model successfully classified heart disease risk with good accuracy.
+- ROC-AUC score indicated strong prediction performance.
+- Data preprocessing and feature scaling improved model convergence and reliability.
+- Certain medical features showed strong influence on heart disease prediction.
+
+##  Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+##  Conclusion
+This project demonstrates how machine learning can assist in predicting heart disease risk using patient medical data. Logistic Regression provided reliable results and helped identify important medical factors related to heart disease.
